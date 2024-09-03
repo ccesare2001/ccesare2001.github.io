@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Papyrus', fantasy;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -13,8 +13,10 @@ body {
 /* Header Section */
 #header {
     font-variant: small-caps;
+    min-height: 40px;
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center; /* Center the text */
 }
 
 /* About Section */
@@ -37,7 +39,7 @@ body {
     width: 100%;
     max-width: 150px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid black; /* Added black border */
 }
 
 #description {
@@ -51,12 +53,12 @@ body {
 
 #icons a {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 #icons img {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     vertical-align: middle;
 }
 
@@ -86,13 +88,23 @@ body {
     border: 1px solid #ddd;
 }
 
-.work-details p {
+.work-details ul {
+    list-style: none; /* Remove bullet points */
     margin: 0;
+    padding: 0;
     font-size: 14px;
+}
+
+.work-details ul li {
+    margin-bottom: 5px; /* Add some spacing between list items */
 }
 
 /* Footer Section */
 #footer {
     margin-top: 40px;
     font-size: 12px;
+    background-color: rgba(146, 136, 3, 0.888); /* Solid background color for the footer */
+    padding: 10px;
+    width: 100%;
+    text-align: center;
 }
